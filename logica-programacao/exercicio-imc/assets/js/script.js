@@ -1,51 +1,79 @@
-// pegar valor do peso
-// pegar valor da altura
-// realizar o cálculo
-/* mostrar embaixo o resultado do cálculo + se é abaixo,
-normal, obeso etc.
-*/
+// código corrigido: 
+// uma função para cada coisinha
+
 
 const form = document.querySelector('#form');
-const resultado = document.querySelector('.resultado');
-const inputPeso = form.querySelector('#peso');
-const inputAltura = form.querySelector('#altura');
+  form.addEventListener('submit', function (e){
+  e.preventDefault();
+  const inputPeso = e.target.querySelector('#peso');
+  const inputAltura = e.target.querySelector('#altura');
+  const peso = Number(inputPeso.value);
+  const altura = Number(inputAltura.value);
+  if(!peso){
+    setResultado('Peso inválido!', false);
+    return
+  }
+  if(!altura){
+    setResultado('Altura inválida!', false);
+    return
+  }
+  const imc = getImc(peso, altura);
+  const nivelImc = getNivelImc(imc);
+  const msg = `Seu IMC é ${imc}. ${nivelImc}`;
+  setResultado(msg, true);
+});
 
-form.addEventListener('submit', function calculaIMC(e){
-        e.preventDefault();
-        const peso = inputPeso.value;
-        const altura = inputAltura.value;
-        if (!peso) {
-                setResultado('Peso inválido', false);
-                return;
-              }
-            
-              if (!altura) {
-                setResultado('Altura inválida', false);
-                return;
-              }
-   let calculo = peso / (altura*altura);
-   resultado.innerHTML += `<p>O resultado obtido foi ${calculo.toFixed(2)}. `
-   if(calculo < 18,5){
-      resultado.innerHTML +=  `Você está abaixo do peso.</p>`;
-        resultado.className = 'resultado-abaixo'
-}   else if(calculo >= 18,5 && calculo <= 24,9){
-    resultado.innerHTML += `Você está com o peso normal.</p>`;
-    resultado.className = 'resultado-ok'
-   }else if(calculo >= 25 && calculo <= 29,9){
-    resultado.innerHTML += `Você está sobrepeso.</p>`;
-    resultado.className = 'resultado-sobrepeso'
-   }else if(calculo >= 30 && calculo <= 34,9){
-    resultado.innerHTML += `Você está sobrepeso.</p>`;
-    resultado.className = 'resultado-obeso-um'
-   }else if(calculo >= 35 && calculo <= 39,9){
-    resultado.innerHTML += ` Você está sobrepeso.</p>`;
-    resultado.className = 'resultado-obeso-dois'
-   }else if(calculo > 40){
-    resultado.innerHTML += `Você está sobrepeso.</p>`;
-    resultado.className = 'resultado-obeso-tres'
-   }else{
-    resultado.innerHTML += `Submeta os valores corretamente.`
-   }
-})
+function getNivelImc(){
+  // INVERTENDO A LÓGICA: CHECANDO DE TRÁS PRA FRENTE
+  const nivel = ['Abaixo do peso', 'Peso normal', 'Sobrepeso', 'Obesidade Grau 1', 
+  'Obesidade Grau 2', 'Obesidade Grau 3']
+  if(imc >= 39.9) return nivel[5];
+  if(imc >= 34.9) return nivel[4];
+  if(imc >= 29.9) return nivel[3];
+  if(imc >= 24.9) return nivel[2];
+  if(imc >= 18.5) return nivel[1];
+  if(imc < 18.5) return nivel[0];
+  // o jeito abaixo é certo, mas é desnecessário (o return vai parar a função)
+  // se o if tem uma linha só, ele não precisa de bloco
+  // if(imc >= 39.9){
+  //   return nivel[5];
+  // }else if(imc >= 34.9){
+  //   return nivel[4];
+  // }else if(imc >= 29.9){
+  //   return nivel[3];
+  // }else if(imc >= 24.9){
+  //   return nivel[2];
+  // }else if(imc >= 18.5){
+  //   return nivel[1];
+  // }else if(imc < 18.5){
+  //   return nivel[0];
+  // }
 
-// o cálculo funciona, mas não mostra o nível correto
+
+}
+
+
+function getImc(peso, altura){
+imc = peso / altura**2;
+return imc.toFixed(2);
+}
+function criaP(){
+  // cria parágrafo
+  const p = document.createElement('p'); // p -> parágrafo
+  return p;
+}
+// capturar o resultado para mandar uma mensagem usando o parâmetro
+function setResultado(msg, isValid){
+  const resultado = document.querySelector('.resultado');
+  resultado.innerHTML = ``; // fica a div em branco
+  const p = criaP();
+  if(isValid) {
+    p.classList.add('paragrafo-resultado');
+  }else{
+    p.classList.add('bad');
+  }
+
+  p.innerHTML = msg;
+  resultado.appendChild(p);
+}
+
