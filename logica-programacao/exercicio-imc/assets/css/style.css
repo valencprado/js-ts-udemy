@@ -62,3 +62,24 @@ form button:hover{
 .texto div{
     margin: 2em;
 }
+.resultado-abaixo{
+background-color: var(--primary-color);
+}
+.resultado-ok{
+background-color: #ffff00;
+}
+.resultado-sobrepeso{
+background-color: rgb(250, 182, 56);
+}
+.resultado-obesidade-um{
+    background-color: rgb(255, 166, 0);
+    
+}
+.resultado-obesidade-dois{
+    background-color: rgb(250, 95, 56);
+    
+}
+.resultado-obesidade-tres{
+    background-color: rgb(255, 8, 0);
+    
+}
