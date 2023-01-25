@@ -12,7 +12,8 @@ for(let i = 0; i < elementos.length; i++){
     // desestruturação
     let {tag, texto} = elementos[i];
     let tagHTML = document.createElement(tag);
-    tagHTML.innerHTML= texto;
+    let textoCriado = document.createTextNode(texto)
+    tagHTML.appendChild(textoCriado);
     div.appendChild(tagHTML);
     }
     container.appendChild(div);
