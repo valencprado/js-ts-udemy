@@ -4,15 +4,15 @@ const elementos = [
     {tag: 'footer', texto: 'Frase 3'},
     {tag: 'section', texto: 'Frase 4'}
 ];
+const container = document.querySelector('.container');
+const div = document.createElement('div');
 
-let tag = elementos.map(elemento => {
-    return elemento.tag
-});
-let texto = elementos.map(elemento =>{ 
-    return elemento.texto;
-});
 
 for(let i = 0; i < elementos.length; i++){
-    let tagHMTL =   document.createElement(`${tag[i]}`);
-    tagHMTL.innerHTML += texto[i];
+    // desestruturação
+    let {tag, texto} = elementos[i];
+    let tagHTML = document.createElement(tag);
+    tagHTML.innerHTML= texto;
+    div.appendChild(tagHTML);
     }
+    container.appendChild(div);
