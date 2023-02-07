@@ -4,6 +4,8 @@
     <a>Conteúdos</a>
 </p>
 
+> Nessa seção, a enumeração das aulas segue o professor, não a Udemy. 
+
 ### Resumo
 Conceitos básicos de lógica de programação, comuns em várias linguagens.
 

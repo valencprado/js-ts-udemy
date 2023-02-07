@@ -5,6 +5,7 @@
     <a>Conteúdos</a>
 </p>
 
+> Nessa seção, a enumeração das aulas segue o professor, não a Udemy.
 
 ### Resumo
 Conteúdos básicos de JavaScript - conhecimento superficial da linguagem. 
