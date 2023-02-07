@@ -1,1 +1,0 @@
-console.log(`Meu nome é "VALENTINA". Estou aprendendo JavaScript  a `, 1 , `da manhã.`);
