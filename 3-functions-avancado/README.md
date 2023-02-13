@@ -10,3 +10,13 @@
 Aprofundamento em funções no JavaScript.
 
 ### Conteúdos aprendidos
+- [x] Parâmetros
+- [x] Retorno
+- [x] Escopo léxico
+- [x] Closures
+- [x] Funções callback
+- [x] IIFEs
+- [x] Funções Fábrica
+- [] Funções construtoras
+- [] Funções recursivas
+- [] Funções geradoras
