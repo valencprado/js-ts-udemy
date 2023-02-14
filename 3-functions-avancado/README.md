@@ -17,6 +17,6 @@ Aprofundamento em funções no JavaScript.
 - [x] Funções callback
 - [x] IIFEs
 - [x] Funções Fábrica
-- [] Funções construtoras
+- [x] Funções construtoras
 - [] Funções recursivas
 - [] Funções geradoras
