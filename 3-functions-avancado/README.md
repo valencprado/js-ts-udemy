@@ -19,4 +19,4 @@ Aprofundamento em funções no JavaScript.
 - [x] Funções Fábrica
 - [x] Funções construtoras
 - [x] Funções recursivas
-- [] Funções geradoras
+- [x] Funções geradoras
