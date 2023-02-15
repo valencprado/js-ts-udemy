@@ -1,4 +1,4 @@
-# Projetos: Curso de Javascript e Typescript do básico ao avançado
+# Anotações: Curso de Javascript e Typescript do básico ao avançado
 <div align='center'>
 
 ![ClipWindowsGIF](https://user-images.githubusercontent.com/85965282/184449645-994fa676-a15b-4ff0-9cf9-3de98c8dadc3.gif)
