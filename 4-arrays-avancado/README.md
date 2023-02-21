@@ -12,8 +12,8 @@ Aprofundamento nos conceitos de array.
 
 ## Conteúdo
 
-- [] Revisão
-- [] Splice()
+- [x] Revisão
+- [x] Splice()
 - [] Concatenando arrays
 - [] Filter(): Filtrando arrays
 - [] Map(): Mapeando arrays
