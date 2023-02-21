@@ -20,3 +20,5 @@ Aprofundamento em funções no JavaScript.
 - [x] Funções construtoras
 - [x] Funções recursivas
 - [x] Funções geradoras
+
+As aulas 76 e 78 são o repositório da calculadora. Link: https://github.com/valencprado/js-calculadora/
