@@ -14,9 +14,9 @@ Aprofundamento nos conceitos de array.
 
 - [x] Revisão
 - [x] Splice()
-- [] Concatenando arrays
-- [] Filter(): Filtrando arrays
-- [] Map(): Mapeando arrays
-- [] Reduce(): Reduzindo arrays
+- [x] Concatenando arrays
+- [x] Filter(): Filtrando arrays
+- [x] Map(): Mapeando arrays
+- [x] Reduce(): Reduzindo arrays
 - [] Filter + Map + Reduce
 - [] forEach
