@@ -18,5 +18,5 @@ Aprofundamento nos conceitos de array.
 - [x] Filter(): Filtrando arrays
 - [x] Map(): Mapeando arrays
 - [x] Reduce(): Reduzindo arrays
-- [] Filter + Map + Reduce
-- [] forEach
+- [x] Filter + Map + Reduce
+- [x] forEach
