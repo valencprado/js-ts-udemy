@@ -12,12 +12,12 @@ Aprofundamento nos conceitos de objetos, além da programação orientada a obje
 
 ## Conteúdo
 
-- [] Revisão
-- [] `Object.defineProperty()` e `Object.defineProperties()`
-- [] Getters e Setters
-- [] Métodos para objetos
-- [] Prototypes
-- [] Manipulando Prototypes
-- [] Polimorfismo
-- [] Factory Functions + Prototypes
-- [] Objeto `Map()`
+- [x] Revisão
+- [x] `Object.defineProperty()` e `Object.defineProperties()`
+- [x] Getters e Setters
+- [x] Métodos para objetos
+- [x] Prototypes
+- [x] Manipulando Prototypes
+- [x] Polimorfismo
+- [x] Factory Functions + Prototypes
+- [x] Objeto `Map()`
