@@ -18,6 +18,7 @@ Aprofundamento nos conceitos de objetos, além da programação orientada a obje
 - [x] Métodos para objetos
 - [x] Prototypes
 - [x] Manipulando Prototypes
+- [x] Herança
 - [x] Polimorfismo
 - [x] Factory Functions + Prototypes
 - [x] Objeto `Map()`
