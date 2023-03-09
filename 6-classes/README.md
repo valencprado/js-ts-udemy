@@ -11,7 +11,7 @@
 Conhecimentos sobre criação de classes, suas funcionalidades e a programação orientada a objetos. Afinal, JavaScript é uma linguagem orientada a objetos.
 
 ## Conteúdo
-- [] Criação de classes
+- [x] Criação de classes
 - [] Getters e Setter
 - [] Herança com classes
 - [] Métodos de instância e estáticos
