@@ -15,4 +15,4 @@ Conhecimentos sobre criação de classes, suas funcionalidades e a programação
 - [x] Getters e Setter
 - [x] Herança com classes
 - [x] Métodos de instância e estáticos
-- []  Validação de formulário com classe
+- [x]  Validação de formulário com classe
