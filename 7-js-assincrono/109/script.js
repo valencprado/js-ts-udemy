@@ -1,7 +1,6 @@
 // métodos para promises
-// Promise.all Promise.race Promice.resolve Promise.reject
+// Promise.all Promise.race Promice.resolveolve Promise.reject
 
-// promises
 function geraTempo(min, max) {
     min *= 1000;
     max *= 1000;
@@ -9,13 +8,13 @@ return Math.floor(Math.random() * (max-min) + min)
 }
 function espere(msg, tempo) {
 
-    return new Promise((res, rej) => {
+    return new Promise((resolve, reject) => {
         if(typeof msg !== 'string') {
-            rej('UEPA');
+            ('UEPA');
             return;
         }
         setTimeout(() => {
-            res(msg + ' Passei na promise');
+            resolve(msg + ' Passei na promise');
         }, tempo);
     });
    
@@ -38,7 +37,7 @@ function espere(msg, tempo) {
 function baixaPagina() {
     const emCache = true;
     if(emCache) {
-        return Promise.resolve('Página em cache');
+        return Promise.resolveolve('Página em cache');
     } else {   
          return espere('Baixou', 3000);
     }
