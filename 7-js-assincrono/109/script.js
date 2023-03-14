@@ -37,7 +37,7 @@ function espere(msg, tempo) {
 function baixaPagina() {
     const emCache = true;
     if(emCache) {
-        return Promise.resolveolve('Página em cache');
+        return Promise.resolve('Página em cache');
     } else {   
          return espere('Baixou', 3000);
     }
