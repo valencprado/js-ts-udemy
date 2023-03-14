@@ -11,9 +11,9 @@
 Conhecimentos relacionados ao JavaScript assíncrono e requisições. Iniciando a realidade do JS, já que estamos sempre buscando dados do servidor.
 
 ## Conteúdo
-- [] Promises
-- [] Métodos para Promises
-- [] Async/Await
-- [] XMLHttpRequest (GET) +  Promises
+- [x] Promises
+- [x] Métodos para Promises
+- [x] Async/Await
+- [x] XMLHttpRequest (GET) +  Promises
 - [] Fetch API (GET)
 - [] Fetch API e Axios (JSON)
