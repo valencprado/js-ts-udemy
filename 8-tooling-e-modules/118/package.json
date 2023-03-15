@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "gera": "webpack -w"
+    "dev": "webpack -w"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +15,9 @@
     "babel-loader": "^9.1.2",
     "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.29.1",
+    "regenerator-runtime": "^0.13.11"
   }
 }
