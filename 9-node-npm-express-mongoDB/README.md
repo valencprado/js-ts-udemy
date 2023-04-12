@@ -12,14 +12,14 @@
 Início do uso de back-end nas aplicações com o Node.js. Conhecimentos sobre NPM, o gerenciador de pacotes do Node. Utilização de banco de dados com MongoDB. Conhecimentos sobre Express.
 
 ## Conteúdo
-- [] Módulos (1)
-- [] Módulos (2)
-- [] NPM (Node Package Manager)
-- [] Listando arquivos com FS e Recursão mútua
-- [] Escrevendo e lendo arquivos
-- [] Express - intro
-- [] Express + Nodemon
-- [] Express - `req.params`, `req.query` e `req.body`
+- [x] Módulos (1)
+- [x] Módulos (2)
+- [x] NPM (Node Package Manager)
+- [x] Listando arquivos com FS e Recursão mútua
+- [x] Escrevendo e lendo arquivos
+- [x] Express - intro
+- [x] Express + Nodemon
+- [x] Express - `req.params`, `req.query` e `req.body`
 - [] Express Router e Controllers
 - [] Express Views
 - [] Express - Arquivos estáticos
