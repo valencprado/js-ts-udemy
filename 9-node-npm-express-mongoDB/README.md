@@ -20,8 +20,8 @@ Início do uso de back-end nas aplicações com o Node.js. Conhecimentos sobre N
 - [x] Express - intro
 - [x] Express + Nodemon
 - [x] Express - `req.params`, `req.query` e `req.body`
-- [] Express Router e Controllers
-- [] Express Views
+- [x] Express Router e Controllers
+- [x] Express Views
 - [] Express - Arquivos estáticos
 - [] Express + Webpack
 - [] Express Middlewares
