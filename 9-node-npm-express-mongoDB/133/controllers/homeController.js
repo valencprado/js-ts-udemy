@@ -11,4 +11,5 @@ exports.home = (req, res) => {
 
 exports.exemploPost = (req, res) => {
     res.send("Nova rota de POST!");
+
 }
